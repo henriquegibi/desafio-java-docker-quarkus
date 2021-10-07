@@ -1,14 +1,14 @@
 # Desafio Java-Docker-Quarkus
 
-##### Contexto
+### Contexto
 Ao se passar uma data para nosso sistema, queremos saber as cotações do dólar na data passada e do dia útil anterior.
 
 Caso se passe uma data inválida ou uma data de um dia não útil, mensagens de erro deverão ser retornadas usando os corretos status do protocolo HTTP.
 
-##### API a ser consumida
+### API a ser consumida
 https://dadosabertos.bcb.gov.br/dataset/dolar-americano-usd-todos-os-boletins-diarios
 
-##### Atividades do desenvolvimento
+### Atividades do desenvolvimento
 - Desenvolver em Java/REST (obrigatório).
 - Docker/Docker compose nos back-ends (obrigatório).
 - API deverá ser documentada no Swagger (obrigatório).
@@ -19,7 +19,7 @@ https://dadosabertos.bcb.gov.br/dataset/dolar-americano-usd-todos-os-boletins-di
 - Não é obrigatório a criação do front-end. Pode ser utilizado o Swagger para os testes.
 
 
-##### Estruturação da aplicação
+### Estruturação da aplicação
 A aplicação deve ser dividida em dois sub-aplicativos/microsserviços:
 1. Microservice de consumo da API pública do Banco Central.
 Retorno: Data e cotação.
