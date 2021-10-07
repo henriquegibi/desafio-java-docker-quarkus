@@ -29,6 +29,10 @@ Retorno:
    - O retorno deve ter os campos:
 Valor da cotação da data informada, data da cotação informada, valor da cotação do dia útil anterior, data da cotação do dia útil anterior.
 
-##### Fluxo
+#### Fluxo
 
 `Microservice B` ► Consumir API- ► `Microservice A` ► Consumir API ► `BCB`
+
+##### Update!
+
+Como o uso do Quarkus é de carácter desejável, e não obrigatório, decidi utilizar o Spring para o desafio.
