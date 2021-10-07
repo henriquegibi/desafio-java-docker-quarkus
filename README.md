@@ -33,6 +33,10 @@ Valor da cotação da data informada, data da cotação informada, valor da cota
 
 `Microservice B` ► Consumir API- ► `Microservice A` ► Consumir API ► `BCB`
 
-##### Update!
+##### Update 1
 
 Como o uso do Quarkus é de carácter desejável, e não obrigatório, decidi utilizar o Spring para o desafio.
+
+##### Update 2
+
+Percebo que não sou um Javeiro, mas um AWS Builder que escreve algo em Java.
