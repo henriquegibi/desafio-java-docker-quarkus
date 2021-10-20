@@ -31,7 +31,7 @@ Valor da cotação da data informada, data da cotação informada, valor da cota
 
 #### Fluxo
 
-`Microservice B` ► Consumir API- ► `Microservice A` ► Consumir API ► `BCB`
+`Microservice B` ► Consumir API ► `Microservice A` ► Consumir API ► `BCB`
 
 ##### Update 1
 
